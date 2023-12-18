@@ -1,0 +1,103 @@
+body {
+  background: radial-gradient(circle at center, green, rgb(0, 73, 0)); 
+  margin: 0;
+  }
+  .stat-row {
+    width: 40%;
+    height: 40px;
+  }
+  .stat-section-1 {
+    float: left;
+      width: 40%;
+    height: 40px;
+    margin: 50px;
+    padding:2px;
+  }
+  .stat-section-2 {
+    margin: 50px;
+      width: 40%;
+    height: 40px;
+    float: right;
+    padding:2px;
+  }
+  .stat-section-3 {
+    margin: 50px;
+    width: 40%;
+    height: 40px;
+    float: right;
+    Padding: 2px;
+  }
+  #Flamecharm {
+    color:#D72638;
+  }
+  #Frostdraw {
+    color:#A9D3FF;
+  }
+  #Galebreath {
+    color: #ADF7B6;
+  }
+  #Thundercall {
+    color:#F3D34A;
+  }
+  #Shadowcast {
+    color:#8661C1;
+  }
+  #Ironsing {
+    color:#87919E;
+  }
+  .stat-name{
+    color:#E6E6E6;
+  }
+  #storage-section {
+    color:#E6E6E6;
+  }
+  .nav-fun {
+    color:#E6E6E6;
+    height: 3vh;
+    margin: 60px;
+  }
+  .page-centered {
+    width: 81%;
+    text-align: center;
+  }
+ #calculator {
+  position: absolute;
+  top: 50%;
+  right: 50%
+ }
+ div#destroyman-iii-1 {
+  position: absolute;
+ }
+ div#destroyman-iii-2 {
+  position: absolute;
+  right:0;
+ }
+ div#login-page {
+  position: absolute;
+  font-weight: bold;
+  color: darkred;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 50%;
+ }
+ div#Dancing-boi {
+  position: absolute;
+  background: radial-gradient(circle at center, red, white); 
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+ }
+ div#anotha-one {
+  position: absolute;
+  right: 0;
+ }
+ div#bottom-left {
+  position: absolute;
+  top: 477;
+ }
+ div#bottom-right {
+  position: absolute;
+  top: 477;
+  right:0;
+ }

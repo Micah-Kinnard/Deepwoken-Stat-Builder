@@ -1,0 +1,218 @@
+<link rel="stylesheet" type="text/css" href="./Statbuilder.css">
+<div id="gifs">
+  <div id="Dancing-boi">
+    <img src="https://media.tenor.com/g9RpbikxO-8AAAAM/deepwoken-roblox.gif">
+  </div>
+  <div id="anotha-one">
+    <img src="https://media.tenor.com/g9RpbikxO-8AAAAM/deepwoken-roblox.gif">
+  </div>
+  <div id="bottom-left">
+    <img src="https://media.tenor.com/KrkxM-_9AFwAAAAM/sharko-deepwoken-sharko.gif">
+  </div>
+  <div id="bottom-right">
+    <img src="https://media.tenor.com/KrkxM-_9AFwAAAAM/sharko-deepwoken-sharko.gif">
+  </div>
+<div id="login-page">
+  <button id="start" onclick="startBuilding()">Login as Guest</button>
+</div>
+</div>
+<div id="stat-build-container">
+<div id="destroyman-iii-1">
+<img src="https://media.tenor.com/Bsv6xQTyqt8AAAAM/deepwoken-sharko-dancing-megalodaunt-dacing.gif">
+</div>
+<div id="destroyman-iii-2">
+  <img src="https://media.tenor.com/Bsv6xQTyqt8AAAAM/deepwoken-sharko-dancing-megalodaunt-dacing.gif">
+</div>
+<div class="page-centered">
+  <div class="nav-fun">
+    <div class="nav-bar">
+      <div class="nav-bar">Races</div>
+      <select name="races" id="race-list">
+        <option value="race0">choose your race for your build</option>
+                <option value="race1">Etrean</option>
+                <option value="race2">Celtor</option>
+                <option value="race3">Adret</option>
+                <option value="race4">Canor</option>
+        <option value="race5">Gremor</option>
+        <option value="race6">Vesperian</option>
+        <option value="race7">Khan</option>
+        <option value="race8">Felinor</option>
+        <option value="race9">Chrysid</option>
+        <option value="race10">Tiran</option>
+        <option value="race11">Ganymede</option>
+        <option value="race12">Capra</option>
+              </select>
+            </div>
+      <div class="nav-bar"><div class="nav-bar">Origins</div>
+      <select name="origins" id="origins">
+                <option value="race1">Castaway</option>
+                <option value="race2">Lone Warrior</option>
+                <option value="race3">Deepbound</option>
+                <option value="race4">Voidwalker</option>
+              </select>
+            </div>
+            <div class="nav-bar"><div class="nav-bar">Bells</div>
+            <select name="bells" id="bells">
+              <option value="bell1">Blood Scourge</option>
+              <option value="bell2">Payback</option>
+              <option value="bell3">Crazy Slots</option>
+              <option value="bell4">Shard Bow</option>
+              <option value="bell5">Run it Back</option>
+              <option value="bell6">Gravity Field</option>
+              <option value="bell7">Preservation</option>
+              <option value="bell8">Smokescreen</option>
+              <option value="bell9">Smite</option>
+              <option value="bell10">Resurrection</option>
+              <option value="bell11">Wind Up</option>
+              <option value="bell12">Sacred Field</option>
+              <option value="bell13">Portals</option>
+              <option value="bell14">Jar of Souls</option>
+              <option value="bell15">Dimensional Travel</option>
+              <option value="bell16">Teleportation</option>
+            </select></div>
+            <div class="nav-bar"><div class="nav-bar">Oaths</div>
+              <select name="oaths" id="oaths">
+                <option value="oath1">Oathless</option>
+                <option value="oath2">Blindseer</option>
+                <option value="oath3">Visionshaper</option>
+                <option value="oath4">Starkindred</option>
+                <option value="oath5">Arcwarder</option>
+                <option value="oath6">Linkstrider</option>
+                <option value="oath7">Jetstriker</option>
+                <option value="oath8">Dawnwalker</option>
+                <option value="oath9">Contractor</option>
+                <option value="oath10">Silentheart</option>
+                <option value="oath11">Fadetrimmer</option>
+              </select>
+            </div>
+            <div class="nav-bar"><div class="nav-bar">Murmur</div>
+            <select name="murmurs" id="murmurs">
+              <option value="murmur1">Ardour</option>
+              <option value="murmur2">Tacet</option>
+              <option value="murmur3">Rhythm</option>
+            </select>
+          </div>
+          <div class="nav-bar"><div class="nav-bar">Outfits</div>
+            <select name="outfits" id="outfits">
+              <option value="outfit1">Black Diver</option>
+              <option value="outfit2">Ignition Deepdelver</option>
+              <option value="outfit3">Prophet's Cloak</option>
+              <option value="outfit4">Authority Commander</option>
+              <option value="outfit5">Legion Centurion</option>
+              <option value="outfit6">Navaen Warchief</option>
+              <option value="outfit7">Justicar</option>
+              <option value="outfit8">Summer Dragoon</option>
+              <option value="outfit9">Ferryman's Coat</option>
+              <option value="outfit10">Cloak of Winds</option>
+            </select>
+          </div>
+    </div>
+    
+    
+    <body>
+      <div id="storage-section">
+        
+    <div class="stat-section-1">
+      
+      <div class="stat-row">
+        <div class="stat-name">Strength</div>
+        <input type="number" id="Strength" value="0" step="1" min="0" max="102">
+      </div>
+      
+      <div class="stat-row">
+        <div class="stat-name">Fortitude</div>
+      <input type="number" id="Fortitude" value="0" step="1" min="0" max="102">
+      </div>
+      
+      <div class="stat-row">
+        <div class="stat-name">Agility</div>
+      <input type="number" id="Agility" value="0" step="1" min="0" max="102">
+    </div>
+      
+    <div class="stat-row">
+      <div class="stat-name">Intelligence</div>
+      <input type="number" id="Intelligence" value="0" step="1" min="0" max="102">
+    </div>
+      
+    <div class="stat-row">
+      <div class="stat-name">Willpower</div>
+      <input type="number" id="Willpower" value="0" step="1" min="0" max="102">
+    </div>
+      
+    <div class="stat-row">
+      <div class="stat-name">Charisma</div>
+      <input type="number" id="Charisma" value="0" step="1" min="0" max="102">
+    </div>
+    </div>
+    
+    <div class="stat-section-2">
+      <div class="weapon-stat-row">
+      <div class="stat-name">Heavy Weapon</div>
+        <input type="number" id="stat-number" value="0" step="1" min="0" max="100">
+      </div>
+      
+      <div class="weapon-stat-row">
+      <div class="stat-name">Medium Weapon</div>
+        <input type="number" id="stat-number" value="0" step="1" min="0" max="100">
+      </div>
+      
+      <div class="weapon-stat-row">
+      <div class="stat-name">Light Weapon</div>
+        <input type="number" id="stat-number" value="0" step="1" min="0" max="100">
+      </div>
+    </div>
+    
+    <div class="stat-section-3">
+      
+      <div class="attunement-stat-row", id="Flamecharm">
+        <div class="attunement-name">Flamecharm</div>
+        <input type="number" id="stat-number" value="0" step="1" min="0" max="100">
+      </div>
+      
+      <div class="attunement-stat-row", id="Frostdraw">
+        <div class="attunement-name">Frostdraw</div>
+        <input type="number" id="stat-number" value="0" step="1" min="0" max="100">
+      </div>
+          
+      <div class="attunement-stat-row", id="Galebreath">
+        <div class="attunement-name">Galebreath</div>
+        <input type="number" id="stat-number" value="0" step="1" min="0" max="100">
+      </div>
+              
+      <div class="attunement-stat-row", id="Thundercall">
+        <div class="attunement-name">Thundercall</div>
+        <input type="number" id="stat-number" value="0" step="1" min="0" max="100">
+      </div>
+        
+      <div class="attunement-stat-row", id="Shadowcast">
+        <div class="attunement-name">Shadowcast</div>
+        <input type="number" id="stat-number" value="0" step="1" min="0" max="100">
+      </div>
+    
+      <div class="attunement-stat-row", id="Ironsing">
+        <div class="attunement-name" , id="Ironsing">Ironsing</div>
+        <input type="number" id="stat-number" value="0" step="1" min="0" max="100">
+        </div>
+    </div>
+    </div>
+    </body>
+    
+    <div id="calculator">
+      <input type="text" id="display" maxLength="10" disabled>
+      <div class="button-area" id="buttons1">
+    
+        <!--     <button class="number-button input-button">1</button> -->
+    
+        <button class="operator" id="equal" type="button">=</button>
+      </div>
+      <div class="button-area" id="buttons2">
+        <button class="operator" id="clear" type="button">C</button>
+        <button class="operator" data-value="+" id="add" type="button">+</button>
+        <button class="operator" data-value="-" id="subtract" type="button">-</button>
+        <button class="operator" data-value="*" id="multiply" type="button">*</button>
+        <button class="operator" data-value="/" id="divide" type="button">/</button>
+      </div>
+    </div>
+  </div>
+    <script src="./Statbuilder.js"></script>
+  </link>
